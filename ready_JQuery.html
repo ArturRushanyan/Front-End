@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>jQuery Animation</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+    .Box { width: 500px; height: 200px; position: relative; }
+    .button { padding: .5em 1em; margin-left: 570px }
+    .effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #16ce16; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  <script>
+  $( function() {
+    var back = ["#F0F8FF", "#FAEBD7", "#DC143C", "#00FFFF", "#696969", "#FFD700", "#4B0082"];
+    var state = true;
+    $( ".button" ).on( "click", function() {
+      if ( state ) {
+        $( ".effect" ).animate({
+          backgroundColor: /*"#163bce"*/ back[Math.floor(Math.random() * back.length)],
+          width: 500,
+          height: 200,
+        }, 1000 );
+      } else {
+        $( ".effect" ).animate({
+          backgroundColor: /*"#df0a0a"*/ back[Math.floor(Math.random() * back.length)],
+          width: 240,
+          height: 400,
+        }, 1000 );
+      }
+      state = !state;
+    });
+  } );
+  </script>
+</head>
+<body>
+ 
+<div class="Box">
+  <div class="effect" class="ui-widget-content ui-corner-all">
+    
+  </div>
+</div>
+ 
+<button class="button" class="ui-state-default ui-corner-all">Push</button>
+ 
+ 
+</body>
+</html>
