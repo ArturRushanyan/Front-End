@@ -8,20 +8,21 @@
   </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  
+
   <script>
   $( function() {
     var back = ["#F0F8FF", "#FAEBD7", "#DC143C", "#00FFFF", "#696969", "#FFD700", "#4B0082"];
     var state = true;
     var button = ".button";
     var effect = ".effect";
+    var val = 1;
     $( button ).on( "click", function() {
         $( effect ).animate({
           backgroundColor: back[Math.floor(Math.random() * back.length)],
           width: state ? 500 : 240,
           height: state ? 200 : 400,
         }, 1500);
-        state = !state;
+      state = !state;
     });
   } );
   </script>
