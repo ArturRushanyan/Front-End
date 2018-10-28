@@ -13,8 +13,8 @@
   $( function() {
     var back = ["#F0F8FF", "#FAEBD7", "#DC143C", "#00FFFF", "#696969", "#FFD700", "#4B0082"];
     var state = true;
-    var button = ".button";
-    var effect = ".effect";
+    var button = $(.button);
+    var effect = $(.effect);
     var val = 1;
     $( button ).on( "click", function() {
         $( effect ).animate({
