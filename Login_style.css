@@ -3,62 +3,55 @@
     height: 100%;
 }
 
-.Registration_Box {
+.Login_box {
     margin-top: 80px;
     margin-bottom: 80px;
 }
 
-.form-register-heading {
-    margin-bottom: 30px;
+.form-signin-heading {
+    text-transform: uppercase;
     margin-bottom: 20px;
-    margin-left: 260px;
+    margin-left: 310px;
 }
 
-.form-registration {
-    max-width: 600px;
+.form-signin {
+    width: 500px;
     padding: 15px 35px 45px;
     margin: 0 auto;
     background-color: #fff;
-    border: 1px solid grey;
+    border: 1px solid grey;  
     display: flex;
     flex-direction: column;
 }
 
-.Email {
-    margin-top: 10px;
+.log {
     display: flex;
     flex-direction: row;
 }
 
-.Password {
-    margin-top: 20px;
-    margin-left: 4px;
+.pass {
     display: flex;
     flex-direction: row;
 }
 
-.Confirm_Password {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-}
-
-label {  
-    margin-top: 10px;
+label { 
+    margin-top: 40px;
     font-size: 16px; 
     margin-right: 20px;
 }
 
-.form-control { 
+.form-control {
+    margin-top: 35px;
     font-size: 16px;
-    width: 300px;
+    margin-left: 20px;
     height: auto;
+    width: 300px;
     padding: 10px;
 }
 
-#registration {
+#login {
     text-transform: uppercase;
-    width: 100px;
+    width: 70px;
     height: 40px;
     border: none;
     border-radius: 5px;
@@ -68,22 +61,20 @@ label {
     font-weight: 500;
     transition: 0.2s ease;
     cursor: pointer;
-    margin-top: 30px;
-    margin-left: 200px;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.registration {
+    margin: 17px 0px 0px 0px; 
+    margin-left: 155px;
 }
 
 input[type="text"] {
     margin-bottom: -1px;
-    margin-left: 98px;
-    
 }
 
 input[type="password"] {
     margin-bottom: 10px;
-    margin-left: 63px;
-}
-
-#ConfirmPassword {
-  margin-bottom: 10px;
-  margin-left: 5px;
+    margin-left: 24px;
 }

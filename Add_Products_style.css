@@ -1,0 +1,91 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.add_box {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-adding-heading {
+  margin-bottom: 20px;
+  margin-left: 350px;
+}
+
+.form-adding {
+  max-width: 450px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid grey; 
+}
+
+.Product_Type {
+  margin-top: 10px;
+  margin-left: 7px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Product_Name {
+  margin-top: 10px;
+  margin-left: -1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Product_Price {
+  margin-top: 20px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Product_Count {
+  margin-top: 20px;
+  margin-left: -2px;
+  display: flex;
+  flex-direction: row;
+}
+
+label { 
+  margin-top: 15px;
+  margin-right: 20px;
+  font-size: 16px; 
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  width: 300px;
+}
+
+.button {
+  text-transform: uppercase;
+  margin: 15px auto;
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: cornflowerblue;
+  font-family: sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-left: 160px;
+}
+
+input[type="text"] {
+  margin-bottom: 6px;
+  
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin-top: 6px;
+  
+}
